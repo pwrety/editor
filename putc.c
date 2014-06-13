@@ -2,8 +2,8 @@
 
 int main(int argc, char *argv[])
 {
-	fputs("\033[10;6H", stdout);
-	fputs("\033[10;6HHello\n", stdout);
+	fputs("\033[6;10H", stdout);
+	fputs("\033[6;10HHello\n", stdout);
 
 	return 0;
 }
